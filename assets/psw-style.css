@@ -1,0 +1,78 @@
+/**
+ * PTF main style file
+ *
+ */
+ 
+ .psw-social-container{
+
+ }
+
+ .psw-title{
+ 	text-align: center;
+ }
+
+ .psw-info{
+
+ }
+
+ .psw-social-container ul{
+ 	margin: 7px 0;
+ }
+
+ .psw-list li{
+ 	list-style: none;
+ 	float: left;
+ 	margin-right: 10px;
+ }
+
+ .psw-icon{
+ 	display: block;
+ 	vertical-align: middle;
+ 	width: 30px;
+ 	height: 30px;
+ 	font-size: 20px;
+ 	line-height: 30px;
+ 	text-align: center;
+ 	color: #aaaaaa;
+ 	transition: all 0.4s ease;
+ }
+ .psw-icon:hover{
+ 	color:#ffffff;
+ }
+ .psw-icon .fa{
+ 	line-height: 30px;
+ }
+
+ .round{
+ 	border-radius: 50%;
+ 	color: #ffffff;
+ 	background: #aaaaaa;
+ }
+ .round:hover{
+ 	background: #ffffff;
+ 	color: #aaaaaa;
+ }
+ .rounded-rect{
+ 	border-radius: 5px;
+ 	background:#aaaaaa;
+ 	color: #ffffff;
+ }
+ .rounded-rect:hover{
+ 	background:#ffffff;
+ 	color: #aaaaaa;
+ }
+
+ .diamond{
+ 	transform: rotate(45deg);
+ 	margin-right: 15px;
+ 	background:#aaaaaa;
+ 	color: #ffffff;
+ }
+ .diamond:hover{
+ 	color:#aaaaaa;
+ 	background: #ffffff;
+ }
+
+ .psw-icon.diamond .fa{
+ 	transform: rotate(-45deg);
+ }

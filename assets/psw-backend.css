@@ -1,0 +1,44 @@
+/**
+ * Admin styles of psw
+ */
+
+ .pss-color-wraper,.pss-theme-wraper{
+ 	width:50%;
+ 	float:left;
+ 	position: relative;
+ }
+ .pss-color-wraper{
+ 	z-index: 100;
+ }
+ .pss-theme-wraper{
+ 	z-index: 10;
+ }
+
+ .psw-subtitle{
+ 	text-decoration: underline;
+ }
+ .pss-theme-wraper p label{
+ 	display: block;
+ 	height:50px;
+ 	background-image: url(../img/sprites.png);
+ 	position: relative;
+ 	background-position: 30px 0px;
+ 	background-repeat: no-repeat;
+ }
+ .pss-theme-wraper p label input{
+ 	position: absolute;
+ 	top: 50%;
+ 	-webkit-transform: translateY(-50%);
+ 	-moz-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+ 	margin-top: 0px;
+ }
+ .pss-theme-wraper p label.theme-two-label{
+ 	background-position: 30px -100px;
+ }
+ .pss-theme-wraper p label.theme-three-label{
+ 	background-position: 30px -150px;
+ }
+ .pss-theme-wraper p label.theme-four-label{
+ 	background-position: 30px -200px;
+ }
